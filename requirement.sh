@@ -24,11 +24,11 @@ if ! package_installed python-dotenv; then
     pip install python-dotenv --user
 fi
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 . ~/.nvm/nvm.sh
 
-nvm install 16.17.0
+nvm install 16
 
 echo -e '\nexport NVM_DIR="$HOME/.nvm"' >> ~/.bashrc
 echo -e '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' >> ~/.bashrc
