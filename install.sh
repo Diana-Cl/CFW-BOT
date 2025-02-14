@@ -20,7 +20,7 @@ echo -e "${GREEN}│${NC}For Freedom${WALL}${DOOR}${WALL}${GREEN}${NC}"
 echo -e "${GREEN}└──────────────────────────────┘${NC}"
 
 echo -e "${YELLOW}Cloning CFW-BOT Repo ${NC}"
-git clone https://github.com/NiREvil/CFW-BOT.git
+git clone https://github.com/Diana-Cl/CFW-BOT.git
 
 cd CFW-BOT
 
@@ -61,7 +61,7 @@ chmod +x requirement.sh
 echo -e "${GREEN}${CHECK_MARK} Requirements installed Successfully! ${NC}"
 echo -e "${GREEN}${CHECK_MARK} Now You Can Add 1.CF API TOKEN 2.Telegram Bot Token 3.CF Account ID 4.Admin UserID${NC}"
 echo -e "${YELLOW}${WARNING} Pay Attention To Their Order ${NC}"
-echo -e "${YELLOW}${ARROW} Use CTRL+V to Paste ${ARROW}${NC}"
+echo -e "${YELLOW}${ARROW} Use CTRL+V to Paste shits in here${ARROW}${NC}"
 
 python3 install.py
 
