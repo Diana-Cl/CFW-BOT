@@ -910,7 +910,7 @@ def run_nvm_use_and_wrangler_deploy(new_file_path):
 
     print(result.stdout)
 
-    return "Current Deployment ID:" in result.stdout
+    return "Current Version ID:" in result.stdout
 
 
 def update_wrangler_toml(new_txt_file_path):
